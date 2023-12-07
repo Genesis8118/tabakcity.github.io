@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Tabaco City</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="featured-post">
+            <h2>Get in Touch</h2>
+            <p>Have questions, suggestions, or just want to say hello? We'd love to hear from you!</p>
+        </section>
+
+        <section class="contact-form">
+            <h3>Opinions/Suggestions?</h3>
+            <form id="contactForm" action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Display comments here -->
+        <div id="comments-container"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Tabaco City Blog</p>
+    </footer>
+
+</body>
+</html>

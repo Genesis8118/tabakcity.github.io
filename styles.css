@@ -1,0 +1,156 @@
+body 
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/b/b6/Tabaco_Park_%28Ziga_Avenue%2C_Tabaco%2C_Albay%3B_04-18-2023%29.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+header 
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    padding: 1em;
+    font-size: small;
+    position: relative;
+    text-align: center;
+}
+
+h1 
+{
+    margin: 0;
+}
+
+nav ul 
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li 
+{
+    display: inline;
+    margin-right: 1em;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+main 
+{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.featured-post 
+{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(58, 53, 53, 0.9);
+    box-shadow: 0 2px 4px  rgba(83, 82, 82, 0.1);
+}
+
+.blog-post 
+{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h3 
+{
+    color: #333;
+}
+
+.blog-post p 
+{
+    color: #555;
+}
+
+.contact-form 
+{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h3 
+{
+    color: #333;
+}
+
+.contact-form label 
+{
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.contact-form input,
+.contact-form textarea 
+{
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.contact-form button 
+{
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.contact-form button:hover 
+{
+    background-color: #45a049;
+}
+
+.comment 
+{
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comment p 
+{
+    margin: 0;
+    color: #333;
+}
+
+
+footer 
+{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
