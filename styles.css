@@ -3,7 +3,7 @@ body
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('https://upload.wikimedia.org/wikipedia/en/b/b6/Tabaco_Park_%28Ziga_Avenue%2C_Tabaco%2C_Albay%3B_04-18-2023%29.jpg');
+    background-image: url('https://scontent.fmnl3-1.fna.fbcdn.net/v/t1.6435-9/36687830_1027384884086900_2623825585897472_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=7f8c78&_nc_ohc=d8726lYYyBQAX81piGp&_nc_ht=scontent.fmnl3-1.fna&oh=00_AfDRVquG9wTwy0GNjytEbtK1sfdIqTmAAvs5WGnWAKmAsg&oe=65A5179F');
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -146,21 +146,6 @@ main
     background-color: rgba(0, 0, 0, 0.9);
     border-radius: 8px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    opacity: 0;
-    animation: fadeIn 1s ease-in-out forwards;
-    
-    @keyframes fadeIn 
-    {
-        from 
-        {
-            opacity: 0;
-        }
-        to 
-        {
-            opacity: 1;
-        }
-    }
-    
 }
 
 .featured-post 
