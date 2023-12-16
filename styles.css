@@ -1,3 +1,4 @@
+
 body 
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -171,7 +172,7 @@ main
     color: #333;
 }
 
-.blog-post pre 
+.blog-post p
 {
     color: #555;
     
@@ -261,3 +262,4 @@ footer
     bottom: 0;
     width: 100%;
 }
+
