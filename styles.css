@@ -107,11 +107,6 @@ li:hover .navbar
     color: #333; 
 }
 
-.navbar a:hover {
-    background-color: #eaeaea;
-    color: #333;
-}
-
 h1 
 {
     margin: 10;
